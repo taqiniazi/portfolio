@@ -1,0 +1,26 @@
+.work-experiance-card{
+    .work-experiance-slider{ 
+        li {
+            .date{
+                width:68px
+            }
+            .info{
+                .text{
+                    .title{
+                        max-width: 230px;
+                    }
+                }
+            }
+        } 
+    }
+}
+.expertise-card{
+    .expertise-item{
+        .image{
+            img{
+                width: 62px !important;
+                height: 62px !important;
+            }
+        }     
+    }
+}

@@ -1,0 +1,68 @@
+    <div class="row g-4">
+      <div class="col-lg-12">
+        <div class="card">
+          <div class="card-body work-experiance-card">
+            <h3 class="card-title">Work Experience</h3>
+            <div class="work-experiance-main">
+                <ul class="work-experiance-slider list-unstyled">
+                    @for (experience of experience; track $index) {
+                    <li>
+                      <div class="date">
+                        <p><small>{{experience.from_date}} <br> {{experience.to_date}}</small></p>
+                      </div>
+                      <div class="info">
+                        
+                        <div class="text">
+                          <h4 class="title">{{experience.comp_name}}</h4>
+                          <h6 class="subtitle">{{experience.designation}}</h6>
+                        </div>
+                      </div>
+                    </li>
+                    }
+                   
+                </ul>
+                <ul class="work-experiance-slider list-unstyled">
+                    @for (experience of experience; track $index) {
+                    <li>
+                    <div class="date">
+                        <p><small>{{experience.from_date}} <br> {{experience.to_date}}</small></p>
+                    </div>
+                    <div class="info">
+                        
+                        <div class="text">
+                        <h4 class="title">{{experience.comp_name}}</h4>
+                        <h6 class="subtitle">{{experience.designation}}</h6>
+                        </div>
+                    </div>
+                    </li>
+                    }
+                </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-12">
+        <div class="card expertise-card">
+          <div class="card-body">
+            <h3 class="card-title">My Expert Area
+            </h3>
+            <div class="expertise-main mt-24">
+              <div class="row g-3">
+                @for (expertarea of expertarea; track $index) {
+                    <div class="col-xl-4 col-md-4 col-sm-6 col-6">
+                        <div class="expertise-item">
+                            <div class="image text-center">
+                            <img src={{expertarea.icon}} alt="figma">
+                            </div>
+                            <div class="text">
+                            <h4 class="title">{{expertarea.title}}</h4>
+                            </div>
+                        </div>
+                    </div>
+                }
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
