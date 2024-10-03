@@ -24,3 +24,60 @@ border-radius: 8px;
 -ms-border-radius: 8px;
 -o-border-radius: 8px;
 }
+
+.card-projects .project-item .image::after {
+    content: '';
+    position: absolute;
+    top: 24px;
+    background: #359dff45;
+    bottom: 0;
+    left: 24px;
+    right: 24px;
+    opacity: 0;
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+}
+.card-projects .project-item .image:hover::after {
+    opacity: 1;
+}
+.social-media-icon{
+    a:hover{
+        color:#4770ff;
+        svg{
+            fill:#4770ff !important
+        }
+    }
+}
+.dark-theme{
+    a{
+        color: #f5f5f5;
+
+    }
+    .card-title .link-btn{
+        color:#f5f5f5;
+        border-color:#f5f5f5;
+        svg{
+            stroke:#f5f5f5 !important
+        }
+    }
+    .social-media-icon{
+        ul{
+            li{
+                a{
+                  svg{
+                    fill: #64748B !important;
+                  }
+                  &:hover{
+                    color: #fff !important; 
+                    svg{
+                        fill: #fff !important;
+                    }
+                  }
+                }
+            }
+        }
+    }
+}
