@@ -1,8 +1,8 @@
 import { Routes } from '@angular/router';
-import { AboutComponent } from './about/about.component';
-import { AppComponent } from './app.component';
+import { LayoutsComponent } from './layouts/layouts.component';
+import { ProjectsListComponent } from './projects-list/projects-list.component';
 
 export const routes: Routes = [
-    { path: '', component: AppComponent},
-    { path: 'about', component: AboutComponent }
+    { path: '', component: LayoutsComponent},
+    { path: 'projects', component: ProjectsListComponent }
 ];
