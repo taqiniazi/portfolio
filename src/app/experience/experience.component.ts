@@ -68,6 +68,10 @@ export class ExperienceComponent {
     {
       title:"Angular",
       icon:"assets/img/icons/angular.svg"
+    },
+    {
+      title:"Invision CMS",
+      icon:"assets/img/icons/invision.svg"
     }
   ]
 }

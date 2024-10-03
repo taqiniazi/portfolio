@@ -77,6 +77,8 @@ export class ProjectsListComponent {
       info:"Frontend Development"
     }
   ]
+  ngOnInit(): void {
+  }
 }
 interface projectList{
     title:string,
