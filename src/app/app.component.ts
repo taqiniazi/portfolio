@@ -6,14 +6,15 @@ import { ExperienceComponent } from "./experience/experience.component";
 import { RecentProjectsComponent } from "./recent-projects/recent-projects.component";
 import { ServicesMainComponent } from "./services-main/services-main.component";
 import { LayoutsComponent } from "./layouts/layouts.component";
+import { HttpClientModule } from '@angular/common/http';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, HeaderComponent, SidebarComponent, ExperienceComponent, RecentProjectsComponent, ServicesMainComponent, LayoutsComponent],
+  imports: [HttpClientModule,RouterOutlet, HeaderComponent, SidebarComponent, ExperienceComponent, RecentProjectsComponent, ServicesMainComponent, LayoutsComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'portfolio';
+  title = 'Portfolio - Taqi Raza Khan';
 }
