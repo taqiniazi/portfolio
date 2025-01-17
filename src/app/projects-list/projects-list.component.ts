@@ -19,7 +19,7 @@ export class ProjectsListComponent {
     {
       title:"Global Certification",
       img:"assets/img/projects/project-1.png",
-      url:"http://www.certifications.pitb.gov.pk",
+      url:"https://certifications.pitb.gov.pk",
       info:"Frontend Development"
     },
     {
