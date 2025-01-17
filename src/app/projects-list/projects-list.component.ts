@@ -11,6 +11,12 @@ import { SidebarComponent } from '../commons/sidebar/sidebar.component';
 export class ProjectsListComponent {
   projectsList:projectList[] = [
     {
+      title:"Payzen",
+      img:"assets/img/projects/payzen.png",
+      url:"https://payzen.pk/",
+      info:"Frontend Development"
+    },
+    {
       title:"Global Certification",
       img:"assets/img/projects/project-1.png",
       url:"http://www.certifications.pitb.gov.pk",
