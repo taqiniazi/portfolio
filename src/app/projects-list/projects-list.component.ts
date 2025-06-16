@@ -31,7 +31,7 @@ export class ProjectsListComponent {
     {
       title:"SS Japan Car",
       img:"assets/img/projects/sscars.jpg",
-      url:"sscars",
+      url:"https://soft-selkie-aeb561.netlify.app/",
       info:"Frontend Development"
     },
     {
