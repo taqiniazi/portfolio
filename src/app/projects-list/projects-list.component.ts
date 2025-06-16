@@ -29,6 +29,12 @@ export class ProjectsListComponent {
       info:"Frontend Development"
     },
     {
+      title:"SS Japan Car",
+      img:"assets/img/projects/sscars.jpg",
+      url:"sscars",
+      info:"Frontend Development"
+    },
+    {
       title:"ePay System",
       img:"assets/img/projects/project-4.png",
       url:"https://epay.punjab.gov.pk/",
