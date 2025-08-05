@@ -58,6 +58,10 @@ export class ExperienceComponent {
       icon:"assets/img/icons/bootstrap.svg"
     },
     {
+      title:"Tailwind",
+      icon:"assets/img/icons/tailwind.svg"
+    },
+    {
       title:"Javascript",
       icon:"assets/img/icons/javascript.svg"
     },
