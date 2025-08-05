@@ -11,7 +11,7 @@ export class ExperienceComponent {
   experience:experience[]=[
     {
       comp_name:"Punjab Information Technology Board",
-      designation:"Software Engineer- Frontend",
+      designation:"Sr. Software Engineer - Frontend Lead",
       from_date:"Aug 2020",
       to_date:"Present"
     },
