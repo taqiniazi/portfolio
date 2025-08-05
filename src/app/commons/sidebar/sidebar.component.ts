@@ -8,5 +8,10 @@ import { Component } from '@angular/core';
   styleUrl: './sidebar.component.scss'
 })
 export class SidebarComponent {
-
+  yearsOfExperience: number;
+  constructor() {
+    const startYear = 2013; 
+    const currentYear = new Date().getFullYear();
+    this.yearsOfExperience = currentYear - startYear;
+  }
 }
